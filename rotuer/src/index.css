@@ -1,0 +1,117 @@
+/* Estilos base */
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  background-image: url(/assets/images/cake.jpg);
+}
+
+/* Estilos para el componente Navbar */
+
+.navbar {
+  background-color: #9c1616;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilos para el componente Home */
+
+.home {
+  text-align: center;
+}
+
+.home h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home p {
+  font-size: 14px;
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+  /* En dispositivos móviles, cambiamos el diseño para que sea más compacto */
+
+  body {
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding: 5px;
+  }
+
+  .navbar ul {
+    margin-bottom: 10px;
+  }
+
+  .navbar li {
+    margin-right: 5px;
+  }
+
+  .home {
+    text-align: left;
+  }
+}
+
+/* Navbar.css */
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
